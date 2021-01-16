@@ -42,7 +42,7 @@ async def on_ready():
 def login(token):
     print(logo())
     try:
-        bot.run('Nzk3ODIzNjIyMTMwNjk2MjAy.YAKQYw.GdnVGNN7eNwGNELXFJb35WfFaB8',bot=False)
+        bot.run(token,bot=False)
     except:
         print(f'{Fore.RED}Invalid token was passed...{Fore.WHITE}')
         time.sleep(5)
